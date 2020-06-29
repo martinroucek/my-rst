@@ -19,6 +19,13 @@
 				"command": "my-rst.captionFormat",
 				"title": "RST: Format caption"
 			}
+		],
+		"keybindings": [
+			{
+				"key": "ctrl+k ctrl+k",
+				"command": "my-rst.captionFormat",
+				"when": "editorLangId==restructuredtext"
+			}
 		]
 	},
 	"scripts": {
